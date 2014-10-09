@@ -14,4 +14,8 @@ describe 'Fizzbuzz' do
 		expect(divisible_by_five? 5).to be true
 	end
 
+	it 'knows when a number is indivisible by 5' do 
+		expect(divisible_by_five? 1).to be false
+	end
+
 end
