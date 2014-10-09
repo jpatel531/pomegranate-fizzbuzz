@@ -26,7 +26,7 @@ describe 'Fizzbuzz' do
 		expect(fizzbuzz 3).to eq "Fizz"
 	end
 
-	it 'fizzes when a number is divisible by 5' do 
+	it 'buzzes when a number is divisible by 5' do 
 		expect(fizzbuzz 5).to eq "Buzz"
 	end
 
