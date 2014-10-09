@@ -43,7 +43,7 @@ loop do
 	puts "\033c"
 	puts "\n Press space to choose a commit and fill in your instructions to the user, or 'q' to exit \n \n"
 
-	array.map! { |i| i == array[selection] ? i.yellow : i.black }
+	array.map! { |i| i == array[selection] ? i.green : i.black }
 	puts array
 	c = read_char
 	case c
