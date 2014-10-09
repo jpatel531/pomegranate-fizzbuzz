@@ -22,4 +22,8 @@ describe 'Fizzbuzz' do
 		expect(divisible_by_fifteen? 15).to be true
 	end
 
+	it 'fizzes when a number is divisible by 3' do 
+		expect(fizzbuzz 3).to eq "Fizz"
+	end
+
 end
