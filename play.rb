@@ -1,6 +1,6 @@
 require 'io/console'
 require 'colorize'
-require 'curses'
+require 'json'
 
 def read_char
   begin
@@ -24,35 +24,47 @@ def read_char
   return c
 end
 
-array = ["hello", "hi", "waddup"]
 
-# log = `git log --pretty=oneline`
+log = `git log --pretty=oneline`
 
-# array = log.split("\n")
+array = log.split("\n").reverse
 
 selection = 0
 
 result = []
 
+puts "Name of source file:"
+source = gets.chomp
+
+puts "Name of test file:"
+spec = gets.chomp
+
 loop do
 	puts "\033c"
-	array.map! { |i| i == array[selection] ? i.green : i.black }
+	array.map! { |i| i == array[selection] ? i.yellow : i.black }
 	puts array
 	c = read_char
 	case c
 	when "\e[A"
 		selection -= 1 unless selection == 0
-		`clear`
 	when "\e[B"
 		selection += 1 unless selection == (array.length - 1)
-		`clear`
-	when "\r"
-		result << array[selection]
+	when " "
+		sha = array[selection].uncolorize.split(" ").first.uncolorize
+		puts "Instructions: \n"
+		instruction = gets.chomp
+		result << {commit: sha, instruction: instruction, source: source, spec: spec}
 		array.delete array[selection]
-		puts result
+	when "\r"
+		break
 	when 'q'
 		exit
 	end
+end
+
+File.open("pomegranate.json", 'w') do |file|
+	file.write JSON.pretty_generate result
+	puts "Your tutorial steps have been written to the file!"
 end
 
 
