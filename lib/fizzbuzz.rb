@@ -11,6 +11,7 @@ def divisible_by_fifteen? number
 end
 
 def fizzbuzz number
+	return "FizzBuzz" if divisible_by_fifteen? number
 	return "Buzz" if divisible_by_five? number
 	return "Fizz" if divisible_by_three? number
 end
