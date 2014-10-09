@@ -18,5 +18,8 @@ describe 'Fizzbuzz' do
 		expect(divisible_by_five? 1).to be false
 	end
 
+	it 'knows when a number is divisible by 15' do 
+		expect(divisible_by_fifteen? 15).to be true
+	end
 
 end
