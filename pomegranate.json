@@ -1,14 +1,8 @@
 [
   {
-    "commit": "0901c19e069817441a452a86f53ed63874b807be",
-    "instruction": "do this!",
-    "source": "lib/fizzbuzz.rb",
-    "spec": "spec/fizzbuzz_spec.rb"
-  },
-  {
-    "commit": "2c29354eea85dc13f0c215e1b7508684391c4a1a",
-    "instruction": "do that!",
-    "source": "lib/fizzbuzz.rb",
-    "spec": "spec/fizzbuzz_spec.rb"
+    "commit": "e190427428a6040d26337c2a9d67e54a90f0937c",
+    "instruction": "hello world",
+    "source": "b",
+    "spec": "s"
   }
 ]

@@ -41,6 +41,8 @@ spec = gets.chomp
 
 loop do
 	puts "\033c"
+	puts "\n Press space to choose a commit and fill in your instructions to the user, or 'q' to exit \n \n"
+
 	array.map! { |i| i == array[selection] ? i.yellow : i.black }
 	puts array
 	c = read_char
@@ -50,13 +52,13 @@ loop do
 	when "\e[B"
 		selection += 1 unless selection == (array.length - 1)
 	when " "
-		sha = array[selection].uncolorize.split(" ").first.uncolorize
-		puts "Instructions: \n"
+		sha = array[selection].uncolorize.split(" ").first
+		puts "\n \n Instructions: \n \n"
 		instruction = gets.chomp
 		result << {commit: sha, instruction: instruction, source: source, spec: spec}
 		array.delete array[selection]
 	when "\r"
-		break
+		break unless result.empty?
 	when 'q'
 		exit
 	end
@@ -64,7 +66,7 @@ end
 
 File.open("pomegranate.json", 'w') do |file|
 	file.write JSON.pretty_generate result
-	puts "Your tutorial steps have been written to the file!"
+	puts "\n \n Your tutorial steps have been written to the file! \n \n"
 end
 
 
