@@ -9,3 +9,7 @@ end
 def divisible_by_fifteen? number
 	number % 15 == 0
 end
+
+def fizzbuzz number
+	"Fizz" if divisible_by_three? number
+end
