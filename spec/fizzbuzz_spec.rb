@@ -30,4 +30,8 @@ describe 'Fizzbuzz' do
 		expect(fizzbuzz 5).to eq "Buzz"
 	end
 
+	it 'fizzbuzzes when a number is divisible by 15' do 
+		expect(fizzbuzz 15).to eq "FizzBuzz"
+	end
+
 end
