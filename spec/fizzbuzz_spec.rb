@@ -34,4 +34,8 @@ describe 'Fizzbuzz' do
 		expect(fizzbuzz 15).to eq "FizzBuzz"
 	end
 
+	it 'returns the number when divisible by neither 3 or 5' do 
+		expect(fizzbuzz 1).to eq 1
+	end
+
 end
