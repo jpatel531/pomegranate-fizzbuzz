@@ -1,80 +1,56 @@
 [
   {
-    "commit": "2c29354eea85dc13f0c215e1b7508684391c4a1a",
-    "instruction": "\u001b[Bgfgffg",
-    "source": "bla",
-    "spec": "boop"
-  },
-  {
     "commit": "acd1f9840afcab0f5c71d2d80e86173682eb2579",
-    "instruction": "gfgf",
-    "source": "bla",
-    "spec": "boop"
-  },
-  {
-    "commit": "e190427428a6040d26337c2a9d67e54a90f0937c",
-    "instruction": "",
-    "source": "bla",
-    "spec": "boop"
+    "instruction": "Pass this test!",
+    "source": "lib/fizzbuzz.rb",
+    "spec": "spec/fizzbuzz.rb"
   },
   {
     "commit": "5e5d5e59f1c28c2fa059cf3b91506fb033c7f690",
-    "instruction": "",
-    "source": "bla",
-    "spec": "boop"
-  },
-  {
-    "commit": "0901c19e069817441a452a86f53ed63874b807be",
-    "instruction": "",
-    "source": "bla",
-    "spec": "boop"
+    "instruction": "Pass this test!",
+    "source": "lib/fizzbuzz.rb",
+    "spec": "spec/fizzbuzz.rb"
   },
   {
     "commit": "b14c0fd55c5597c2ad60179a8ff9ebb9dbd5e2a6",
-    "instruction": "",
-    "source": "bla",
-    "spec": "boop"
-  },
-  {
-    "commit": "fab9309c1cc07b4b86d614d4ae01e64a691b286c",
-    "instruction": "",
-    "source": "bla",
-    "spec": "boop"
+    "instruction": "Pass this test!",
+    "source": "lib/fizzbuzz.rb",
+    "spec": "spec/fizzbuzz.rb"
   },
   {
     "commit": "7072c5050c6aae63895ba537598feb0ddda8d19e",
-    "instruction": "",
-    "source": "bla",
-    "spec": "boop"
+    "instruction": "Pass this test!",
+    "source": "lib/fizzbuzz.rb",
+    "spec": "spec/fizzbuzz.rb"
   },
   {
     "commit": "baf3fc47d500f1725055e984f938f187d00e9dab",
-    "instruction": "",
-    "source": "bla",
-    "spec": "boop"
-  },
-  {
-    "commit": "769eee6f19bd40c5ecdc0cc2f44f22b65fcc0235",
-    "instruction": "",
-    "source": "bla",
-    "spec": "boop"
-  },
-  {
-    "commit": "5daeb00c8b7056608d631e1128925fd48c6ab315",
-    "instruction": "",
-    "source": "bla",
-    "spec": "boop"
+    "instruction": "Pass this test!",
+    "source": "lib/fizzbuzz.rb",
+    "spec": "spec/fizzbuzz.rb"
   },
   {
     "commit": "8b96f6522bbdaee28d31c23c4b9a3c2afedab54c",
-    "instruction": "",
-    "source": "bla",
-    "spec": "boop"
+    "instruction": "Pass this test!",
+    "source": "lib/fizzbuzz.rb",
+    "spec": "spec/fizzbuzz.rb"
   },
   {
-    "commit": "1c37e05d2e2bf204ca0777bf59b428a514b50410",
-    "instruction": "",
-    "source": "bla",
-    "spec": "boop"
+    "commit": "d9db404f44f17a2178a6fdfb29153f0c475724d4",
+    "instruction": "Pass this test!",
+    "source": "lib/fizzbuzz.rb",
+    "spec": "spec/fizzbuzz.rb"
+  },
+  {
+    "commit": "9eae624da50fa32d8a6f08cf415218815f68b17d",
+    "instruction": "Pass this test!",
+    "source": "lib/fizzbuzz.rb",
+    "spec": "spec/fizzbuzz.rb"
+  },
+  {
+    "commit": "0c44caf9e4223dc3b31c49e5b1cdf80a27e49a71",
+    "instruction": "Pass this test!",
+    "source": "lib/fizzbuzz.rb",
+    "spec": "spec/fizzbuzz.rb"
   }
 ]
