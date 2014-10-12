@@ -1,6 +1,6 @@
 [
   {
-    "commit": "acd1f9840afcab0f5c71d2d80e86173682eb2579",
+    "commit": "799fd4fa95d5e67918a3ee8ee045cd67f9c1bfeb",
     "instruction": "Pass this test!",
     "source": "lib/fizzbuzz.rb",
     "spec": "spec/fizzbuzz_spec.rb"
