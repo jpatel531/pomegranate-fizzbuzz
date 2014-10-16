@@ -48,8 +48,8 @@
     "spec": "spec/fizzbuzz_spec.rb"
   },
   {
-    "commit": "Almost there!",
-    "instruction": "Pass this test!",
+    "commit": "0c44caf9e4223dc3b31c49e5b1cdf80a27e49a71",
+    "instruction": "Almost there!",
     "source": "lib/fizzbuzz.rb",
     "spec": "spec/fizzbuzz_spec.rb"
   }
