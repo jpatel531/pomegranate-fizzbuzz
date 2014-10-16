@@ -1,31 +1,31 @@
 [
   {
     "commit": "799fd4fa95d5e67918a3ee8ee045cd67f9c1bfeb",
-    "instruction": "Pass this test!",
+    "instruction": "Do the simplest thing possible to make sure the :divisible_by_three? method passes.",
     "source": "lib/fizzbuzz.rb",
     "spec": "spec/fizzbuzz_spec.rb"
   },
   {
     "commit": "5e5d5e59f1c28c2fa059cf3b91506fb033c7f690",
-    "instruction": "Pass this test!",
+    "instruction": "Now make sure the :divisible_by_three? method works for any number",
     "source": "lib/fizzbuzz.rb",
     "spec": "spec/fizzbuzz_spec.rb"
   },
   {
     "commit": "b14c0fd55c5597c2ad60179a8ff9ebb9dbd5e2a6",
-    "instruction": "Pass this test!",
+    "instruction": "Now do the same for :divisible_by_five?",
     "source": "lib/fizzbuzz.rb",
     "spec": "spec/fizzbuzz_spec.rb"
   },
   {
     "commit": "7072c5050c6aae63895ba537598feb0ddda8d19e",
-    "instruction": "Pass this test!",
+    "instruction": "And again",
     "source": "lib/fizzbuzz.rb",
     "spec": "spec/fizzbuzz_spec.rb"
   },
   {
     "commit": "baf3fc47d500f1725055e984f938f187d00e9dab",
-    "instruction": "Pass this test!",
+    "instruction": "etc.",
     "source": "lib/fizzbuzz.rb",
     "spec": "spec/fizzbuzz_spec.rb"
   },
